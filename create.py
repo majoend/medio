@@ -1,7 +1,8 @@
 
-#LAMBDA
-#ESTAMOS CREANDO COSAS CON LA FUNCION LAMBDA
+"""
+POO, USANDO CLASES, OBJETOS, ATRIBUTOS
 
+"""
 from auto import Auto
 
 auto_1 = Auto("Chevrolet", "Azul", 2020)
