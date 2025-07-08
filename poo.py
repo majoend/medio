@@ -1,9 +1,9 @@
 
 #el celular
-#atributos
-#metodos 
+#atributos ----> son las caracteristicas
+#metodos -----> son las acciones que hacen
 
-class Celular:
+class Libros:
     pass
 
 
