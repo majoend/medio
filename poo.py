@@ -34,3 +34,28 @@ hijas = Hijas()
 
 personas.caminar()
 hijas.estudiar()
+
+#-----------------------------
+# CREAMOS UNA CLASE
+class Auto():
+
+#PASAMOS LOS METODOS A USAR
+    def encender(self):
+        print('El auto esta encendido')
+        return self
+
+    def conducir(self):
+        print('Estas conduciendo un auto')
+        return self
+    
+    def frenar(self):
+        print('Frenaste el auto')
+        return self
+
+auto = Auto() #EN LUGAR DE PONER TANTAS LINEAS DE CODIGO, LO HACEMOS DE ESTA FORMA
+
+auto.encender().conducir().frenar() #ASI ENCADENAMOS LOS METODOS
+
+
+
+
