@@ -1,4 +1,3 @@
-
 #OK AHORA CON LAMBDA
 
 """
@@ -16,7 +15,3 @@ map(), filter(), sorted()
 Argumentos de una función
 Funciones temporales que no necesitas guardar
 """
-
-
-
-
