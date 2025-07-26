@@ -14,10 +14,3 @@ def validar_perro(tamaño, raza):
 
 print(validar_perro('medianos', 'beagle'))
 print(validar_perro('grande', 'chihuahua'))
-
-
-
-
-
-
-    
