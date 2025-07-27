@@ -42,11 +42,16 @@ opciones_conversion = [
 opcion = StringVar()
 opcion.set(opciones_conversion[0])  # valor por defecto
 
-menu = OptionMenu(mi_ventana, opcion, *opciones_conversion)
+menu = OptionMenu(mi_ventana,
+                   opcion, 
+                   *opciones_conversion)
+
 menu.pack(pady=10)
 
 # Botón de conversión
-boton_convertir = Button(mi_ventana, text="Convertir", command=convertir)
+boton_convertir = Button(mi_ventana, text="Convertir", 
+                         command=convertir)
+
 boton_convertir.pack(pady=10)
 
 # Etiqueta de resultado
