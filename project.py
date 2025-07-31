@@ -3,6 +3,16 @@
 
 #importamos las librerias
 
+#compound= permite correr el texto a un lado de la imagen
+"""
+compound='left': el texto a la derecha de la imagen
+compound='right': el texto a la izquierda de la imagen
+compound='top': el texto debajo de la imagen
+compound='bottom': el texto encima de la imagen
+compound='center': el texto sobre la imagen
+etiqueta = Label(ventana, text="Hola", image=foto, compound='left')
+"""
+
 from tkinter import *
 from time import strftime 
 
@@ -15,13 +25,9 @@ def tiempo(): #funcion para actualizar la hora
     etiqueta.after(1000, tiempo)
 
 etiqueta = Label(mi_ventana, font=('calibri', 40, 'bold'), 
-                 background='black', 
-                 foreground='white',) #aspecto del reloj 
+                 background='light blue', 
+                 foreground='black') #aspecto del reloj 
 
 etiqueta.pack(anchor='center') #
-
 tiempo()  # Llama a la función para iniciar el reloj
-
 mi_ventana.mainloop()
-
-

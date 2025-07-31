@@ -31,7 +31,5 @@ boton = Button(crear_ventana, text= 'Click me',
                command=click_me, 
                background="green",
                activebackground="green",)
-boton.pack()     
+boton.pack()
 crear_ventana.mainloop() #EJECUTA LA VENTANA 
-
-
